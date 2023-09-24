@@ -1,0 +1,12 @@
+.container {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.likedProducts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin: 20px 0;
+}

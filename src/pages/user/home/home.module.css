@@ -1,0 +1,39 @@
+.container {
+  margin: 20px 0;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+.userImage {
+  width: 800px;
+  max-width: 800px;
+  height: 600px;
+  border-radius: 6px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user > h2 {
+  text-align: center;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 940px) {
+  .userImage {
+    width: 520px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .userImage {
+    width: 330px;
+    height: 280px;
+  }
+}

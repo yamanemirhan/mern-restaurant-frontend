@@ -1,0 +1,115 @@
+.container {
+  margin: 24px 0;
+}
+
+.searchContainer {
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 16px;
+  border-radius: 6px;
+  background-color: rgba(173, 19, 19, 0);
+}
+
+.productSearchInput {
+  width: 100%;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.categoryToggle {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.categoryList {
+  background-color: #fff;
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: black;
+}
+
+.productSearchSort {
+  width: 100%;
+  padding: 4px;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.productSearchPrice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.productSearchPrice > div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.productSearhApplyBtn {
+  padding: 6px;
+  background-color: rgb(42, 177, 170);
+  border: none;
+  font-size: 24px;
+  color: white;
+  border-radius: 6px;
+}
+
+.searchedProducts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 20px 0;
+}
+
+.container .notFoundProduct {
+  padding: 24px;
+  color: red;
+}
+
+.paginationBtns {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.paginationBtns > button {
+  padding: 4px 10px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 640px) {
+  .productSearchPrice {
+    flex-direction: column;
+  }
+}

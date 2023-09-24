@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  z-index: 40;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+.searchInput {
+  padding: 8px;
+  border-radius: 4px;
+  width: 300px;
+  max-width: 300px;
+}
+
+.userInfo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.userImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.authLinks {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.dropdown {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 140px;
+  height: fit-content;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 6px;
+  background-color: rgb(3, 3, 37);
+  z-index: 40;
+}
+.dropdown > li {
+  list-style: none;
+  padding: 6px;
+  text-align: center;
+  background-color: rgb(3, 3, 37);
+}
+.dropdown > li > a {
+  background-color: rgb(3, 3, 37);
+  height: fit-content;
+  padding: 6px;
+  border-radius: 6px;
+}
+.dropdown > li > a:hover {
+  color: black;
+  background-color: white;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 640px) {
+  .logo {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .searchInput {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .userName {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .userImg {
+    width: 30px;
+    height: 30px;
+  }
+}

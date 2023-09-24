@@ -1,0 +1,172 @@
+.container {
+  padding: 6px;
+}
+
+.productLoading {
+  font-size: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+.productImage {
+  width: 800px;
+  max-width: 800px;
+  height: 600px;
+  border-radius: 6px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product > h2 {
+  text-align: center;
+}
+
+.productCategory {
+  text-align: center;
+}
+
+.productInfos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 120px;
+  padding: 6px;
+}
+
+.productPrice {
+  color: red;
+  font-size: 24px;
+}
+
+.productSellerInfo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 18px;
+  padding: 2px;
+}
+
+.productSellerInfo > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.productLikeComment {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.productLikeComment > div {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 20px;
+}
+
+.productActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.productActions > div {
+  border: 1px solid gray;
+  padding: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.starRating {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+
+.starRating > span {
+  margin-left: 6px;
+  font-size: 16px;
+}
+
+.productDetail {
+  display: flex;
+  gap: 40px;
+}
+
+.ingredientInfo {
+  width: 250px;
+  height: 200px;
+  border: 1px solid gray;
+  padding: 2px;
+  border-radius: 4px;
+}
+.ingredientInfo > ul {
+  list-style: none;
+  padding: 6px;
+  max-height: 140px;
+  overflow: hidden;
+}
+.descriptionInfo {
+  width: 250px;
+  height: 200px;
+  border: 1px solid gray;
+  padding: 2px;
+  border-radius: 4px;
+}
+.descriptionInfo > p {
+  padding: 6px;
+  word-wrap: break-word;
+  max-height: 140px;
+  overflow: hidden;
+}
+.showMoreBtn {
+  padding: 4px;
+  margin-top: 4px;
+  margin-left: auto;
+  margin-right: 4px;
+  display: flex;
+}
+
+.commentsInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.commentSortSelect {
+  padding: 4px;
+  width: 200px;
+  font-size: 20px;
+  outline: none;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 940px) {
+  .productImage {
+    width: 520px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .productImage {
+    width: 330px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .productDetail {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,21 @@
+.payBtn {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  font-size: 24px;
+  border-radius: 7px;
+  background-color: rgb(42, 175, 131, 0.6);
+  color: white;
+  border: 1px solid rgb(42, 175, 131, 1);
+}
+
+.payBtn:hover {
+  background-color: rgb(42, 175, 131, 1);
+  color: white;
+  border: 1px solid rgb(42, 175, 131, 0.6);
+  padding: 14px;
+  transition: all;
+  transition-duration: 500ms;
+}

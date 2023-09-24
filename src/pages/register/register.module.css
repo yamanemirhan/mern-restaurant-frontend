@@ -1,0 +1,77 @@
+.registerWrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    rgba(8, 64, 61, 1) 0%,
+    rgba(17, 93, 103, 1) 50%,
+    rgba(5, 43, 88, 1) 100%
+  );
+  color: white;
+}
+
+.register {
+  border: 1px solid rgb(179, 176, 176);
+  padding: 60px;
+  border-radius: 30px;
+  row-gap: 20px;
+  max-width: 90%;
+}
+
+.registerHeader {
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.pingAnim {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgb(170, 27, 189);
+  border-radius: 9999px;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formElement {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.formLabel {
+  font-size: 16px;
+}
+.registerBtn {
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: rgb(0, 162, 255) !important;
+}
+.registerBtnLoading {
+  background-color: rgb(75, 75, 156);
+}
+.registerBtnLoading:hover {
+  background-color: rgb(78, 78, 133);
+  border-radius: 10px;
+  color: white;
+}
+
+.qText {
+  margin-top: 28px;
+  color: rgb(223, 223, 223);
+}
+
+.loginLink {
+  color: white;
+}

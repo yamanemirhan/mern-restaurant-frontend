@@ -1,0 +1,21 @@
+.paymentSuccessContainer {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paymentSuccessContainer > .orderSuccess {
+  color: rgb(168, 236, 168);
+}
+
+.checkOrders {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.checkOrders > a {
+  color: rgb(0, 217, 255);
+  font-weight: 600;
+}

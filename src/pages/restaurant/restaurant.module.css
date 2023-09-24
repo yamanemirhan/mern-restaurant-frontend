@@ -1,0 +1,53 @@
+.container {
+  margin: 30px 0;
+}
+
+.restaurantInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(3, 72, 104);
+  width: fit-content;
+  margin: auto;
+  padding: 20px 80px;
+  border-radius: 14px;
+  background-color: rgba(20, 41, 136, 0.685);
+  box-shadow: 2px 2px 10px rgba(4, 112, 155, 0.623);
+}
+
+.restaurantInfo .userImg {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.restaurantProducts {
+  margin-top: 30px;
+}
+
+.restaurantProducts > h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.restaurantProducts .products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 640px) {
+  .restaurantInfo {
+    padding: 4px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .restaurantInfo .userImg {
+    width: 330px;
+  }
+}

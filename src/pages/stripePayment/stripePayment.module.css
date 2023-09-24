@@ -1,0 +1,7 @@
+.container {
+  margin: 30px;
+}
+
+.container > h1 {
+  margin: 20px;
+}

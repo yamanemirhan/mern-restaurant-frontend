@@ -1,0 +1,62 @@
+.container {
+  margin: 20px 0;
+}
+
+.orderTitle {
+  text-align: center;
+}
+
+.orderProductCard {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.quantityInfo {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantityInfo > button {
+  width: 40px;
+  font-size: 24px;
+}
+
+.quantityInfo > span {
+  font-size: 26px;
+}
+
+.goToPaymentBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.goToPaymentBtn > button {
+  padding: 10px;
+  border-radius: 7px;
+  font-size: 20px;
+  background-color: orangered;
+  color: white;
+}
+
+.goToPaymentBtn > button:hover {
+  background-color: white;
+  color: orange;
+  transition: all;
+  transition-duration: 500ms;
+}
+
+.orderDesc {
+  display: flex;
+  margin-top: 16px;
+}
+
+.orderDesc > textarea {
+  margin: auto;
+  width: 250px;
+}
