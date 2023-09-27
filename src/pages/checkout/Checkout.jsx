@@ -97,7 +97,9 @@ function Checkout() {
               onChange={(e) => setOrderDesc(e.target.value)}
             />
           </div>
-
+          <div className={styles.orderPrice}>
+            ${Math.round(currentQuantity * product?.price * 100) / 100}
+          </div>
           <div className={styles.goToPaymentBtn}>
             <button onClick={handleGoToPayment}>Go to Payment</button>
           </div>

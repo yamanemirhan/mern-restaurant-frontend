@@ -60,3 +60,15 @@
   margin: auto;
   width: 250px;
 }
+
+.container .orderPrice {
+  border: 1px solid gray;
+  text-align: center;
+  width: fit-content;
+  margin: 20px auto;
+  font-size: 24px;
+  padding: 2px;
+  border-radius: 4px;
+  background-color: antiquewhite;
+  color: blue;
+}

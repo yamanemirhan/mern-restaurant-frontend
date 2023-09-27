@@ -85,8 +85,13 @@ function Login() {
               ${styles.loginBtnLoading}
             }`}
           >
-            {isLoadingLogin ? "Loginning..." : "Login"}
+            {isLoadingLogin ? "Loging in..." : "Login"}
           </button>
+          <div>
+            <p>Demo Accounts:</p>
+            <div>test@gmail.com | 123456</div>
+            <div>seller1@gmail.com | 123123</div>
+          </div>
           <span className={styles.qText}>
             Don't you have an account?&nbsp;&nbsp;
             <Link to="/register" className={styles.loginLink}>

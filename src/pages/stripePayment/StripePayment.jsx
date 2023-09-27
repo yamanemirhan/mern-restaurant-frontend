@@ -12,14 +12,16 @@ function StripePayment() {
   const { currentOrder } = useSelector((state) => state.order);
 
   useEffect(() => {
-    fetch("http://localhost:4000/config").then(async (r) => {
-      const { publishableKey } = await r.json();
-      setStripePromise(loadStripe(publishableKey));
-    });
+    fetch("https://mern-restaurant-3hw5.onrender.com/config").then(
+      async (r) => {
+        const { publishableKey } = await r.json();
+        setStripePromise(loadStripe(publishableKey));
+      }
+    );
   }, []);
 
   useEffect(() => {
-    fetch("http://localhost:4000/create-payment-intent", {
+    fetch("https://mern-restaurant-3hw5.onrender.com/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
